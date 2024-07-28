@@ -1,4 +1,4 @@
-let playerState = 'fall';
+let playerState = 'idle';
 const dropdown = document.getElementById('animations');
 dropdown.addEventListener('change', function (e) {
     playerState = e.target.value;
@@ -56,7 +56,7 @@ const animationStates = [
         frames: 12,
     },
     {
-        name: 'getHit',
+        name: 'gethit',
         frames: 4,
     }
 ];
